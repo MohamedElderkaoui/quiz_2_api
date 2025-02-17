@@ -31,17 +31,80 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Daphne primero
+    'daphne',  # Necesario para Channels
+    'corsheaders',
+    # Apps de Django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',  # Django REST Framework
+    'django.contrib.staticfiles',  # Debe estar después de daphne
+'drf_yasg',
+    # Terceros
+    'channels',
+    'django_extensions',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'django_datatables_view',   # Otras apps
+     'drf_spectacular',
+    'drf_spectacular_sidecar', 
     'quiz',  # Nosso app
 ]
+REST_FRAMEWORK = {
+    # Enable JWT authentication
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+
+    # Default permission: Require authentication
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+
+    # Pagination for large datasets
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10,  # Customize as needed
+
+    # Schema generation for API documentation with drf-spectacular
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',  # Use this for drf-spectacular
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Your Project API',
+    'DESCRIPTION': 'Your project description',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    # OTHER SETTINGS
+}
+ASGI_APPLICATION = 'quiz_api.asgi.application'
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer",  # Usa Redis en producción
+    },
+}
+
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("localhost", 6379)],
+        },
+    },
+}
+
+
+# Configuración de Redis para cachear preguntas generadas
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,7 +119,7 @@ ROOT_URLCONF = 'quiz_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [ BASE_DIR / 'templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,18 +131,6 @@ TEMPLATES = [
         },
     },
 ]
-from datetime import timedelta
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-}
-
-SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),  # Token expira em 1 dia
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),  # Refresh token dura 7 dias
-}
 
 WSGI_APPLICATION = 'quiz_api.wsgi.application'
 
@@ -129,9 +180,50 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'html')
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# settings.py
+import os
+import environ
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Initialize environment variables
+env = environ.Env(
+    DEBUG=(bool, False)
+)
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+
+# Now retrieve your variables
+OPENAI_API_KEY = env('OPENAI_API_KEY')
+# settings.py
+REST_FRAMEWORK = {
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '100/hour',
+        'user': '1000/hour'
+    }
+}
+
+# Other settings...
+import os
+from dotenv import load_dotenv
+
+# Cargar variables desde .env
+load_dotenv()
+
+# Obtener la API Key de Google Gemini
+GENAI_API_KEY = os.getenv("GENAI_API_KEY")
+
+if not GENAI_API_KEY:
+    raise ValueError("⚠️ Falta la API Key de Google Gemini en el archivo .env")
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # URL del frontend de Reflex
+]

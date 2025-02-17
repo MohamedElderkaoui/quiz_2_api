@@ -1,0 +1,2996 @@
+Traceback (most recent call last):
+  File "C:\mi  codigo\quiz_2\quiz_api\manage.py", line 22, in <module>
+    main()
+  File "C:\mi  codigo\quiz_2\quiz_api\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\management\base.py", line 413, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\management\base.py", line 454, in execute
+    self.check()
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\management\base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\urls\resolvers.py", line 532, in check
+    messages.extend(check_resolver(pattern))
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\mi  codigo\quiz_2\.venv\Lib\site-packages\django\core\checks\urls.py", line 26, in check_resolver
+    return check_method()
+           ^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded
