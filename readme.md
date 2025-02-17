@@ -26,8 +26,8 @@ The **Quiz 2 API** is a RESTful API built with Django for managing a quiz applic
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/MohamedElderkaoui/quiz_2_api.git
-cd quiz_2_api
+git clone https://github.com/MohamedElderkaoui/quiz_api_api.git
+cd quiz_api_api
 ```
 
 2. **Start Vagrant Machine**
